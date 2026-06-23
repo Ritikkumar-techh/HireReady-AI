@@ -1,0 +1,43 @@
+name: hireready_ai
+description: "HireReady AI"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  file_picker: ^10.3.2
+  shared_preferences: ^2.5.3
+  http: ^1.2.1
+  syncfusion_flutter_pdf: ^30.2.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.1
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#121212"
+  android: true
+  ios: true
+  web: false
+
+  android_12:
+    color: "#121212"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
